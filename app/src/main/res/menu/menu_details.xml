@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.joyjettechinterview.ui.activity.DetailsActivity">
+
+    <item
+        android:id="@+id/action_star"
+        android:title="Home"
+        android:icon="@drawable/ic_star"
+        app:showAsAction="always"/>
+
+</menu>

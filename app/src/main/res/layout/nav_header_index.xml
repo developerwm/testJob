@@ -1,0 +1,36 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rel_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    >
+
+    <ImageView
+        android:id="@+id/ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_joyjet"/>
+
+    <TextView
+        android:id="@+id/ImageViewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/ImageView"
+        android:layout_alignTop="@id/ImageView"
+        android:layout_alignRight="@id/ImageView"
+        android:layout_alignBottom="@id/ImageView"
+        android:text="@string/joyjet"
+        android:textSize="30dp"
+        fontPath="fonts/Montserrat-Bold.otf"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:gravity="bottom"
+        tools:ignore="MissingPrefix"/>
+
+    </RelativeLayout>
